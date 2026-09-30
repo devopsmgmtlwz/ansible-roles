@@ -13,7 +13,7 @@ nerdctl --namespace k8s.io images
 /etc/nerdctl/nerdctl.toml
 namespace = "k8s.io"
 
-kubeadm init --apiserver-advertise-address 10.0.0.130 \
+kubeadm init --apiserver-advertise-address 10.0.0.133 \
              --apiserver-bind-port 8443 \
              --cri-socket=unix:///run/containerd/containerd.sock \
              --image-repository registry.aliyuncs.com/google_containers \
