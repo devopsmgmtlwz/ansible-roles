@@ -1,0 +1,2 @@
+- name: install ubuntu kubernetes apt source
+  script:  files/install_apt_source_k8s.sh creates=/etc/apt/keyrings/kubernetes-apt-keyring.gpg

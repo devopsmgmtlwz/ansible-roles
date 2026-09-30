@@ -1,0 +1,3 @@
+- name: copy hosts file
+  copy: src=files/hosts dest=/etc/
+  

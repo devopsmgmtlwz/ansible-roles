@@ -1,0 +1,2 @@
+- name: start containerd
+  systemd: name=containerd state=started enabled=true

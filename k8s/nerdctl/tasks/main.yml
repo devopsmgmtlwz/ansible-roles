@@ -1,0 +1,2 @@
+- name: unarchive nerdctl
+  unarchive: src=files/nerdctl-2.3.5-linux-amd64.tar.gz dest=/usr/local/bin

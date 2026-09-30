@@ -7,7 +7,7 @@
   - role: apache2
 #    vars:
 #      package_name: test02
-    tags:
-     - apache2_role
-     - http 
-     - web server
+    # tags:
+    #  - apache2_role
+    #  - http 
+    #  - web server

@@ -1,0 +1,3 @@
+- ansible.builtin.import_tasks: apt_source.yaml
+- ansible.builtin.import_tasks: hostname.yaml
+- ansible.builtin.import_tasks: copy_hosts.yaml

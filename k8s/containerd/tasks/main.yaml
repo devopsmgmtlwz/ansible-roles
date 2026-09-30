@@ -1,0 +1,4 @@
+- ansible.builtin.import_tasks: create_directory.yaml
+- ansible.builtin.import_tasks: copy_containerd_config.yaml
+- ansible.builtin.import_tasks: unarchive_containerd.yaml
+- ansible.builtin.import_tasks: start_containerd.yaml

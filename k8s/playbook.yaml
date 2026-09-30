@@ -1,0 +1,21 @@
+- hosts: dbsrvs
+  remote_user: root
+  vars:
+   package_name: test
+  
+  roles:
+  - role: nerdctl
+    tags:
+    - nerdctl
+  - role: k8s-component
+    tags:
+    - k8s-component
+  - role: containerd
+    tags:
+    - containerd
+#    vars:
+#      package_name: test02
+    # tags:
+    #  - apache2_role
+    #  - http 
+    #  - web server

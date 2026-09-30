@@ -1,0 +1,2 @@
+- name: create containerd config dir
+  file: path=/etc/containerd state=directory

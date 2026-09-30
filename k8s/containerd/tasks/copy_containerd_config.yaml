@@ -1,0 +1,7 @@
+- name: copy containerd.service file
+  copy: src=files/containerd.service dest=/etc/systemd/system/containerd.service
+  notify: restart containerd.service 
+
+- name: copy config.toml file
+  copy: src=files/config.toml dest=/etc/containerd/config.toml
+  notify: restart containerd.service 
