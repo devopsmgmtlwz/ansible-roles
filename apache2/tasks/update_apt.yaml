@@ -1,0 +1,4 @@
+- name: update apt source
+  shell: apt update -y
+  tags:
+  - apt source

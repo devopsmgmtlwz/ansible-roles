@@ -1,0 +1,3 @@
+- import_tasks: update_apt.yaml
+- import_tasks: install_apache2.yaml
+- import_tasks: copy_conf.yaml

@@ -1,0 +1,5 @@
+- name: copy config file
+  copy: src=files/ports.conf dest=/etc/apache2/ports.conf
+  tags:
+  - config_file
+  notify: restart {{ package_name }}

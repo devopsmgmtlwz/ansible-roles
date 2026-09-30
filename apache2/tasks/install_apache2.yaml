@@ -1,0 +1,5 @@
+- name: install {{ package_name }}
+  apt: name={{ package_name }} state=present
+  tags:
+  - '{{ package_name }}'
+  - http
